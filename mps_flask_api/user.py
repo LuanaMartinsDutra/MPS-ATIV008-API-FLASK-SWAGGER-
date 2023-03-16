@@ -6,7 +6,7 @@ def get_timestamp():
 
 USER = {
     "1000": {
-        "user_name": "Caio Rolando da Rocha",
+        "user_name": "Lee Wang",
         "user_id": "1000",
         "timestamp": get_timestamp(),
     },
@@ -16,7 +16,7 @@ USER = {
         "timestamp": get_timestamp(),
     },
     "3000": {
-        "user_name": "Cthonem Martins",
+        "user_name": "Luana MD",
         "user_id": "3000",
         "timestamp": get_timestamp(),
     }
@@ -40,7 +40,7 @@ def create(user):
     else:
         abort(
             406,
-            f"User with last name {user_id} already exists",
+            f"User with last name {user_name} already exists",
         )
 
 
